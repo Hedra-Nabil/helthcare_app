@@ -38,6 +38,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
   flutter_svg: ^2.2.1
+  easy_localization: ^3.0.8
 
 dev_dependencies:
   flutter_test:
@@ -60,9 +61,10 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-
   # To add assets to your application, add an assets section, like this:
+  # Assets used by the app (translations, images, icons).
   assets:
+    - assets/translations/
     - assets/images/
     - assets/icons/
 
