@@ -1,3 +1,4 @@
+import 'package:effortless_app/screens/welcome_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
 
@@ -9,7 +10,7 @@ void main() async {
     EasyLocalization(
       supportedLocales: const [Locale('en'), Locale('ar')],
       path: 'assets/translations',
-      // Fallback to English if a translation is missing.
+      
       fallbackLocale: const Locale('en'),
       child: const MyApp(),
     ),
@@ -22,12 +23,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Effortless App',
+      title: 'healthcare App',
+      debugShowCheckedModeBanner: false,
       localizationsDelegates: context.localizationDelegates,
       supportedLocales: context.supportedLocales,
       locale: context.locale,
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: Scaffold(body: Center(child: Text('welcome').tr())),
+      home: const WelcomeScreen(),
     );
   }
 }

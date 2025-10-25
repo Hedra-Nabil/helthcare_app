@@ -1,3 +1,11 @@
 {
-	"welcome": "مرحبًا بك في تطبيق Effortless!"
+	"welcome": "مرحبًا بك في تطبيق Effortless!",
+	"healthcare": "الرعاية الصحية",
+	"lets_get_started": "هيا نبدأ!",
+	"login_prompt": "سجل الدخول للحفاظ على صحتك ولياقتك",
+	"login": "تسجيل الدخول",
+	"sign_up": "إنشاء حساب",
+	"enter_email": "أدخل بريدك الإلكتروني",
+	"enter_password": "أدخل كلمة المرور",
+	"sign_in": "تسجيل الدخول"
 }

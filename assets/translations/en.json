@@ -1,3 +1,11 @@
 {
-	"welcome": "Welcome to Effortless App!"
+	"welcome": "Welcome to Effortless App!",
+	"healthcare": "Healthcare",
+	"lets_get_started": "Let's get started!",
+	"login_prompt": "Login to stay healthy and fit",
+	"login": "Login",
+	"sign_up": "Sign Up",
+	"enter_email": "Enter your email",
+	"enter_password": "Enter your password",
+	"sign_in": "Sign In"
 }
