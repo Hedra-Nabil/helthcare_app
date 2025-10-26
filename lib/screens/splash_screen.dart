@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'dart:async';
 import '../utils/app_fonts.dart';
-import '../utils/assets.dart'; // Import the dart:async library for the Timer // Import your destination screen
+import '../utils/assets.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
