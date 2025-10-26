@@ -6,6 +6,8 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:effortless_app/utils/app_colors.dart';
 import 'package:effortless_app/utils/app_fonts.dart';
 
+import 'Sign_up_screen.dart';
+
 class SignInScreen extends StatelessWidget {
   SignInScreen({super.key});
 
@@ -84,7 +86,10 @@ class SignInScreen extends StatelessWidget {
                 // Primary Authentication
                 ElevatedButton(
                   onPressed: () {
-                    // handle sign in
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (_) =>  SignInScreen()),
+                    );
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: AppColors.primary,
@@ -110,7 +115,12 @@ class SignInScreen extends StatelessWidget {
                   children: [
                     Text('dont_have_account'.tr(), style: AppTextStyle.small),
                     TextButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (_) =>  SignUpScreen()),
+                        );
+                      },
                       child: Text(
                         'sign_up'.tr(),
                         style: AppTextStyle.body.copyWith(

@@ -1,3 +1,4 @@
+import 'package:effortless_app/screens/Sign_up_screen.dart';
 import 'package:effortless_app/screens/sign_in_screen.dart';
 import 'package:effortless_app/utils/app_colors.dart';
 import 'package:effortless_app/utils/app_fonts.dart';
@@ -57,7 +58,9 @@ class WelcomeScreen extends StatelessWidget {
                   text: 'sign_up'.tr(),
                   filled: false,
                   onPressed: () {
-                    Navigator.pushNamed(context, '/signup');
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (_) =>  SignUpScreen()),
+                    );
                   },
                 ),
               ],
