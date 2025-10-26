@@ -8,4 +8,10 @@
 	"enter_email": "Enter your email",
 	"enter_password": "Enter your password",
 	"sign_in": "Sign In"
+,
+	"forgot_password": "Forgot password?",
+	"dont_have_account": "Don't have an account?",
+	"or": "OR",
+	"sign_in_with_google": "Sign in with Google",
+	"sign_in_with_facebook": "Sign in with Facebook"
 }

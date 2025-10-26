@@ -46,7 +46,7 @@ class WelcomeScreen extends StatelessWidget {
                 CustomButton(
                   text: 'login'.tr(),
                   onPressed: () {
-                    Navigator.pushReplacement(
+                    Navigator.push(
                       context,
                       MaterialPageRoute(builder: (_) =>  SignInScreen()),
                     );
