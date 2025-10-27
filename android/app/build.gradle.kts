@@ -8,7 +8,9 @@ plugins {
 android {
     namespace = "com.example.effortless_app"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    // Set explicit NDK version required by some plugins. Plugins require NDK 27.0.12077973
+    // (they are backward compatible so using the highest required version fixes the conflict).
+    ndkVersion = "27.0.12077973"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
