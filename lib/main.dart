@@ -16,7 +16,7 @@ void main() async {
     ),
   );
 }
-
+//
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
       supportedLocales: context.supportedLocales,
       locale: context.locale,
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: const WelcomeScreen(),
+      home: const SplashScreen(),
     );
   }
 }
