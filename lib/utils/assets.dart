@@ -23,9 +23,10 @@ class Assets {
   static const String passwordIcon = 'assets/icons/password_icon.svg';
   //icon for email input field
   static const String emailIcon = 'assets/icons/email_icon.svg';
-  //social icons 
+  //social icons
   static const String googleIcon = 'assets/icons/google_icon.svg';
-  static const String facebookIcon = 'assets/icons/facebook_icon.svg';
-  // custom back arrow 
+  // actual file in repo is 'Facebook.svg' (capital F)
+  static const String facebookIcon = 'assets/icons/Facebook.svg';
+  // custom back arrow
   static const String backArrow = 'assets/icons/back_arrow.svg';
 }
