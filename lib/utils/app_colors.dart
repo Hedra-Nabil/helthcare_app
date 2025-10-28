@@ -11,4 +11,6 @@ class AppColors {
   static const Color textLight = Color(0xFF9E9E9E);
   // Accent color used into splash screens and highlights
   static const Color accent = Color(0xFF98B3E1);
+
+  static const Color redno = Color.fromARGB(255, 255, 0, 0);
 }

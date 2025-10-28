@@ -14,4 +14,8 @@
 	"or": "OR",
 	"sign_in_with_google": "Sign in with Google",
 	"sign_in_with_facebook": "Sign in with Facebook"
+,
+	"onboarding.header": "Welcome",
+	"onboarding.skip": "Skip",
+	"onboarding.title": "Find a lot of specialist\ndoctors in one place"
 }
